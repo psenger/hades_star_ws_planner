@@ -29,16 +29,6 @@ const mapDispatchToProps = function (dispatch) {
     }
 }
 
-/**
- * Use this key in your application by passing it with the key=API_KEY parameter.
- *
- * AIzaSyCA6N-uA0cWPJjnnaBHOB_TMhZEXmsFTEw
- *
- * Restrict your key to prevent unauthorized use in production.
- * PhilipSengerWhiteStarKey
- *
- * https://docs.google.com/spreadsheets/d/1BqHcgB8nokyAbAd8wrsvDOujD2W39SboFaEdQfBPHdo/edit#gid=0
- */
 const Grid = ({grid, gridIdx, hydro, rp, gate, setHydro}) => {
     const [showHydroDialog, setShowHydroDialog] = useState(false);
     const [showContextMenu, setContextMenu] = useState(false);
